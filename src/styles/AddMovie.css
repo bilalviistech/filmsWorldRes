@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .roww{
+    height: 100vh;
+  }
+  .title{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: #db1606;
+  }
+  .title div{
+    margin: 0 5px;
+  }
+  
+  .sidebar li{
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .sidebar li:hover{
+    border: 1px solid white;
+    background-color: #db1606;
+    color: whitesmoke;
+    
+  }
+  
+  .sidebar li i{
+    margin: 0 5px;
+  }
+  .sidebar li span{
+    margin: 0 5px;
+  }
+
+  .formdiv h3{
+    padding: 25px;
+  }
+  .formdiv form{
+    /* background-color: black; */
+    padding:40px 100px;
+  }
+  .formdiv form button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #db1606;
+    background-color: #db1606;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s
+  }
+  .formdiv form button:hover{
+    color: #db1606;
+    background-color: whitesmoke;
+    transform: rotate(-10deg) scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .formdiv form .button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #db1606;
+    background-color: #db1606;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s
+  }
+  .formdiv form .button:hover{
+    color: #db1606;
+    background-color: whitesmoke;
+    transform: rotate(-10deg) scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .formdiv form .button-disabled{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+    background-color: #eeeeee;
+    color: #cfcfcf;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s
+  }
+
+  .loaderr {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loaderr::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FF3D00 transparent;
+  }
+  #seriesFormDiv{
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #212529;
+    border-radius: 10px
+  }
+  
+  #seriesInputDiv{
+    padding-top: 14px
+  }
+  #seriesForm .row{
+    /* gap: 2px; */
+    width: 100%;
+  }
+  #seriesInputDiv{
+    /* margin-top: 4px; */
+    text-align: center;
+  }
+  #seriesInputDiv input{
+    margin-top: 10px;
+    padding: 6px 20px;
+  }
+  #seasonFormDiv{
+    padding: 20px 12px;
+    background-color: #212529;
+    border-radius: 10px
+  }
+  #seasonFormDiv .row{
+    /* gap: 20px; */
+    /* width: 20%; */
+  }
+  #seasonInputDiv{
+    padding-top: 14px
+  }
+  #Navbar{
+    display: none;
+    background-color: red;
+  }
+  #suggestionTableDiv{
+    padding:40px;
+  }
+
+
+  /*MODREN CSS end*/
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1400px) and (max-width: 1444px) {
+  #seasonInputDiv input{
+    margin-top: 8.5px;
+    padding: 10;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #seriesFormDiv{
+    /* width: 100%; */
+    /* gap: 0; */
+  }
+  #seriesTitleDiv{
+    margin: 0px;
+    padding: 10px;
+    width: 210px;
+  }
+  #seriesThumnailDiv{
+    margin: 0px;
+    padding: 10px;
+    width: 210px;
+  }
+  #seriesInputDiv{
+    /* background-color:red */
+    /* margin: 0px;
+    padding: 10px; */
+    /* width: 50px; */
+  }
+  #seriesInputDiv input{
+    margin-top: 20px;
+    padding: 10;
+  }
+  
+  #seriesForm .row{
+    gap: 0px;
+    /* width: 60%; */
+  }
+  #seasonSeriestTitle{
+    margin: 0px;
+    padding: 10px;
+    width: 210px;
+  }
+  #seasonSeries{
+    margin: 0px;
+    padding: 10px;
+    width: 210px;
+  }
+  #seasonInputDiv input{
+    margin-top: 17.5px;
+    padding: 10;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #seriesForm{
+    /* background:#FF3D00; */
+    padding: 40px 10px;
+  }
+  #seriesInputDiv input{
+    margin-top: 33px;
+   padding: 10;
+ }
+  #seasonForm{
+    padding: 40px 10px;
+  }
+  #episodeForm{
+    padding: 40px 10px;
+  }
+  #seasonInputDiv input{
+    margin-top: 8px;
+    padding: 10;
+  }
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+  #Navbar{
+    display: block;
+    background-color: red;
+  }
+  #Navbar a div img{
+    border-radius: 5px;
+  }
+  #Navbar div ul li .nav-item{
+    /* text-align: center; */
+    /* color:black; */
+    /* padding: 5px; */
+    /* margin: 0 5px; */
+    /* border-radius: 10px !important; */
+    /* font-size: 16px;
+    font-weight: 500; */
+  }
+  #Navbar div ul li .nav-link{
+    text-align: center;
+    /* color:black; */
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #Navbar ul li{
+    margin: 0 10px;
+    padding: 6px 0;
+  }
+  #Navbar li span{
+    margin: 0px 10px;
+  }
+  .title1{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #db1606;
+  }
+  .title1 div {
+      margin: 0 5px;
+  }
+  #suggestionTableDiv {
+    overflow-x: scroll;
+    padding: 0;
+  }
+  #suggestionTableDiv .table{
+    white-space: nowrap;
+  }
+  .formdiv form {
+    /* background-color: black; */
+    padding: 25px 10px;
+  }
+  
+  #sideNavbar{
+    display: none;
+  }
+  #seriesForm{
+    padding: 40px 10px;
+  }
+  #seriesTitleDiv {
+    margin: 0px 21px;
+    padding: 0 !important;
+    width: 86%;
+    
+  }
+  #seriesThumnailDiv {
+    margin: 0px 21px;
+    padding: 0 !important;
+    width: 86%;
+  }
+  #seriesInputDiv {
+    padding: 0 !important;
+    text-align: center;
+  }
+  #seasonForm{
+    padding: 40px 10px !important;
+  }
+  #seasonSeriestTitle{
+    margin: 0px 21px;
+    padding: 0 !important;
+    width: 86%;
+  }
+  #seasonSeries{
+    margin: 0px 21px;
+    padding: 0 !important;
+    width: 86%;
+  }
+  #episodeForm{
+    padding: 40px 10px;
+  }
+}
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
